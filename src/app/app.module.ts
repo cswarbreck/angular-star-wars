@@ -7,13 +7,15 @@ import { ListComponent } from './list/list.component';
 import { TabsComponent } from './tabs/tabs.component';
 import { StarWarsService } from '../../src/star-wars.service';
 import { LogService } from './log.service';
+import { CreateCharacterComponent } from './create-character/create-character.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ItemComponent,
     ListComponent,
-    TabsComponent
+    TabsComponent,
+    CreateCharacterComponent
   ],
   imports: [
     BrowserModule
