@@ -6,6 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./create-character.component.scss']
 })
 export class CreateCharacterComponent implements OnInit {
+  availableSides = [
+    {display: 'None', value: ''},
+    {display: 'Light', value: 'light'},
+    {display: 'Dark', value: 'dark'}
+];
+
 
   constructor() { }
 
